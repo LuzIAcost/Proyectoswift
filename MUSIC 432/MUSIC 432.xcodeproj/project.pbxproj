@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0668E7E52981C3D90015910A /* NuevoElemento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0668E7E42981C3D90015910A /* NuevoElemento.swift */; };
 		0678B382296F506A004FFFCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0678B381296F506A004FFFCA /* AppDelegate.swift */; };
 		0678B384296F506A004FFFCA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0678B383296F506A004FFFCA /* SceneDelegate.swift */; };
 		0678B386296F506A004FFFCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0678B385296F506A004FFFCA /* ViewController.swift */; };
 		0678B389296F506A004FFFCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0678B387296F506A004FFFCA /* Main.storyboard */; };
 		0678B38B296F5071004FFFCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0678B38A296F5071004FFFCA /* Assets.xcassets */; };
 		0678B38E296F5071004FFFCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0678B38C296F5071004FFFCA /* LaunchScreen.storyboard */; };
+		067B7BB12979D8DA0044A601 /* Am.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067B7BB02979D8DA0044A601 /* Am.swift */; };
+		067B7BB32979D9EF0044A601 /* CeldaParti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067B7BB22979D9EF0044A601 /* CeldaParti.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0668E7E42981C3D90015910A /* NuevoElemento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuevoElemento.swift; sourceTree = "<group>"; };
 		0678B37E296F506A004FFFCA /* MUSIC 432.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MUSIC 432.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0678B381296F506A004FFFCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0678B383296F506A004FFFCA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		0678B38A296F5071004FFFCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0678B38D296F5071004FFFCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0678B38F296F5071004FFFCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		067B7BB02979D8DA0044A601 /* Am.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Am.swift; sourceTree = "<group>"; };
+		067B7BB22979D9EF0044A601 /* CeldaParti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaParti.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				0678B383296F506A004FFFCA /* SceneDelegate.swift */,
 				0678B385296F506A004FFFCA /* ViewController.swift */,
 				0678B387296F506A004FFFCA /* Main.storyboard */,
+				067B7BB02979D8DA0044A601 /* Am.swift */,
+				0668E7E42981C3D90015910A /* NuevoElemento.swift */,
+				067B7BB22979D9EF0044A601 /* CeldaParti.swift */,
 				0678B38A296F5071004FFFCA /* Assets.xcassets */,
 				0678B38C296F5071004FFFCA /* LaunchScreen.storyboard */,
 				0678B38F296F5071004FFFCA /* Info.plist */,
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0668E7E52981C3D90015910A /* NuevoElemento.swift in Sources */,
+				067B7BB32979D9EF0044A601 /* CeldaParti.swift in Sources */,
 				0678B386296F506A004FFFCA /* ViewController.swift in Sources */,
 				0678B382296F506A004FFFCA /* AppDelegate.swift in Sources */,
 				0678B384296F506A004FFFCA /* SceneDelegate.swift in Sources */,
+				067B7BB12979D8DA0044A601 /* Am.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
